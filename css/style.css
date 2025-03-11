@@ -1,0 +1,33 @@
+body{ 
+    background-image: url(Anime.winter.88893.jpg);
+}
+table{
+    text-align: center;
+    font-size: xx-large;
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 1850px;
+    height: 940px;
+    margin-top: 128px;
+}
+td, tr{
+    border: solid 2px;
+    border-color: rgba(255, 255, 255, 0.5);
+    border: collapse;
+}
+nav{
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 64px;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    top: 0%;
+    left: 0px;
+    right: 0px;
+    padding-top: 64px;
+}
+a{
+    color: white;
+}
+.napok{
+    font-weight: bold;
+}
