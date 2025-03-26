@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Űrlap</title>
+</head>
+<body>
+    <h2>Pizza rendelés</h2>
+    <form>
+        <fieldset>
+            <legend>Személyes adatok:</legend>
+            <label for="nev">Név:</label><input type="text" name="nev" id="nev" placeholder="Kiss István" required>
+            <br><br>
+            <label for="tel">Telefon:</label><input type="tel" name="tel" id="tel" placeholder="+36301234567" required>
+            <br><br>
+            <label for="cim">Cím:</label><input type="text" name="cim" id="cim" placeholder="" required>
+            <br><br>
+            <label for="email">Email:</label><input type="email" name="email" id="email" placeholder="valami123@gmail.com" required>
+        </fieldset>
+        <fieldset>
+            <legend>Pizza:</legend>
+            <label for="">Pizza Mérete:</label>
+            <br>
+            <label for="kicsi">25cm</label><input type="radio" name="kicsi" id="kicsi" select>
+            <label for="kozepes">32cm</label><input type="radio" name="kozepes" id="kozepes" select>
+            <label for="nagy">50cm</label><input type="radio" name="nagy" id="nagy" select>
+        </fieldset>
+    </form>
+    
+</body>
+</html>
